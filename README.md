@@ -33,10 +33,16 @@ Para desativar o ambiente basta fazer:
 $ # Agora o virtual env está desativado!
 ```
 
-Todos os arquivos são executáveis. Para tanto basta invocá-los diretamente do shell do Linux ou usar sua ferramenta Python de preferência:
+Todos os arquivos `.py` são executáveis. Para tanto basta invocá-los diretamente do shell do Linux ou usar sua
+ferramenta Python de preferência:
 ```bash
 $ ./questao-2.10.py       # Primeira opção
 $ python3 questao-2.10.py # Segunda opção
+```
+
+Há também alguns Jupyter Notebooks. Para iniciar o visualizador, pode-se executar
+```bash
+$ jupyter notebook
 ```
 
 ## Resumo das soluções das questões
@@ -46,3 +52,13 @@ O arquivo `questao-2.10.py` contém um código que ajudou a se o polinômio x⁵
 
 ### Questão 2.12
 O arquivo `questao-2.12.py` determina todos os polinômios de grau 5 que são irredutíveis no GF(2)
+
+### Questão 2.14
+O arquivo `questao-2.14.ipynb` contém a tabela que a questão pede para ser montada. Ela também contém algumas
+verificações de elementos da questão.
+
+### Questão 2.17
+O arquivo `questao-2.17.ipynb` contém código para a verificação de alguns elementos da questão.
+
+### Questão 2.19
+O arquivo `questao-2.19.ipynb` contém código para a verificação de alguns elementos da questão.
